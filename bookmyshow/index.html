@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookmyshow</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+  </head>
+<body>
+    <nav class="navbar" style="background-color: #303143;">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.jpg" alt="" width="100%" height="45px">
+          </a>
+          <nav class="navbar bg-body-tertiary">
+            <form class="container-fluid">
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search for Movies, Events, Plays, Sports and Activities " aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </form>
+          </nav>
+          <ul>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select a city
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Search for your popular city</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+            <li><button type="button" class="btn btn-danger">Sign in</button></li>
+            <li><a class="menu" href="#"><i class="bi bi-list"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="nav">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-links" aria-current="page" href="#">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Stream</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Plays</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sports</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Activities</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Buzz</a>
+        </li>
+      </ul>
+    </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/slide1.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slide2.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slide3.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="text"><b>Recommended Movies</b></div>
+      <br>
+      <div class="row">
+        <div class="card" style="width: 14rem;">
+          <img src="./images/card1.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ant-Man and the Wasp:Quantumania</h5>
+            <p class="card-text">Action/Adventure/Comedy/Sci-Fi</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/card2.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pathaan</h5>
+            <p class="card-text">Action/Triller</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/card3.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Shehzada</h5>
+            <p class="card-text">Action/Drama</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/card4.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Amigos</h5>
+            <p class="card-text">Action/Triller</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+            <img src="./images/card5.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kranti</h5>
+              <p class="card-text">Action/Drama</p>
+            </div>
+          </div>
+      </div>
+
+      <div id="banner">
+      <img src="./images/banner.avif" class="center" alt="...">
+    </div>
+
+    <div id="text"><b>The Best Of Live Events</b></div>
+    <br>
+      <div class="row">
+        <div class="card" style="width: 14rem;">
+          <img src="./images/event1.avif" class="card-img-top" alt="...">
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/event2.avif" class="card-img-top" alt="...">
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/event3.avif" class="card-img-top" alt="...">
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/event4.avif" class="card-img-top" alt="...">
+        </div>
+
+        <div class="card" style="width: 14rem;">
+            <img src="./images/event5.avif" class="card-img-top" alt="...">
+          </div>
+      </div>
+      <br><br><br>
+
+    
+    <div class ="premiercontainer">
+      <img id="premierimg" src="./images/banner2.avif">
+      <div id="text"><b>Premieres</b></div>
+      <p id="slogan">Brand new releases every Friday</p>
+      <br>
+      <div class="row">
+        <div class="card" style="width: 14rem; background-color: #303143;" >
+          <img src="./images/premires1.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">M3GAN</h5>
+            <p class="card-text">English</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem; background-color: #303143;">
+          <img src="./images/premires2.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Puss In Boots: The Last Wish</h5>
+            <p class="card-text">English</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem; background-color: #303143;">
+          <img src="./images/premires3.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Murder In The Provence</h5>
+            <p class="card-text">English</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem; background-color: #303143;">
+          <img src="./images/premires4.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Woman King</h5>
+            <p class="card-text">English</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem; background-color: #303143;">
+            <img src="./images/premires5.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Elyse</h5>
+              <p class="card-text">English</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div id="text"><b>Event Happening Near You</b></div>
+      <br>
+      <div class="row">
+        <div class="card" style="width: 14rem;">
+          <img src="./images/eventhap1.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Singles Meet Up - Bangalore</h5>
+            <p class="card-text">Cubbon Park: Bengaluru 0.58kms away</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/eventhap2.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sunday Mornings stand-up comedy at..</h5>
+            <p class="card-text">Outside Karnataka High Court: Bengaluru 0.63kms away</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/eventhap3.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Almost Human - Friday - Raahi</h5>
+            <p class="card-text">Raahi Neo Kitchen and Bar: Bengaluru 0.84kms away</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/eventhap4.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Souvenir Flashback Fridays ft. DJ Joy</h5>
+            <p class="card-text">Hard Rock Cafe Bengaluru 0.90kms away</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+            <img src="./images/eventhap5.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Souvenir Flashback Fridays ft. DJ Trillah</h5>
+              <p class="card-text">Hard Rock Cafe Bengaluru 0.90kms away</p>
+            </div>
+          </div>
+      </div>
+
+      <div id="text"><b>Online Streaming Events</b></div>
+      <br>
+      <div class="row">
+        <div class="card" style="width: 14rem;">
+          <img src="./images/stream1.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Blind Dating</h5>
+            <p class="card-text">Watch on Zoom</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/stream2.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Introduction to Machine Learning and ChatGPT</h5>
+            <p class="card-text">Watch on Zoom</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/stream3.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Campus to Corporate for Students and Professionals</h5>
+            <p class="card-text">Online Streaming</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="./images/stream4.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Data Science with python, tableau, PowerBI, MySql</h5>
+            <p class="card-text">Online Streaming</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+            <img src="./images/stream5.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Art and Craft Online Workshop</h5>
+              <p class="card-text">Watch on Zoom</p>
+            </div>
+          </div>
+      </div>
+      <br><br>
+
+      <div class="footer">
+        <br><br><br>
+        <div class="align">
+        <img src="./images/logo.jpg" alt="" width="100px" height="50px">
+      </div>
+        <br><br>
+        <ul class="media">
+          <li><a class="menu" href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a class="menu" href="#"><i class="bi bi-twitter"></i></a></li>
+          <li><a class="menu" href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a class="menu" href="#"><i class="bi bi-youtube"></i></a></li>
+          <li><a class="menu" href="#"><i class="bi bi-pinterest"></i></a></li>
+          <li><a class="menu" href="#"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
+        <br><br><br><br>
+      </div>
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

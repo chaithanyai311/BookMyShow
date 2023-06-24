@@ -1,0 +1,102 @@
+li{
+    color: white;
+    float: left;
+    font-size: 20px;
+    padding-right: 35px;
+}
+ul{
+    list-style-type: none;
+    color: white;
+}
+.card{
+    margin-left: 30px;
+}
+.nav-links{
+    color: rgb(175, 172, 172);
+    padding-left: 25px;
+    padding-right: 0px;
+    font-size: 13px;
+    font-style: bold ;
+}
+.nav-link {
+    color: rgb(175, 172, 172);
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 13px;
+    font-style: bold ;
+}
+#text{
+    padding-left: 25px;
+    font-size: 25px;
+    margin-top:50px;
+}
+#nav{
+    background-color: rgb(34, 37, 57);
+}
+
+.container-fluid{
+    padding-left: 0px;
+    width: 600px;
+}
+.form-control{
+    font-size: 13px;
+}
+.btn{
+    font-size: 13px;
+}
+.dropdown-item{
+    font-size: 13px;
+}
+.menu{
+    color: white;
+}
+
+.nav-left{
+    color: rgb(175, 172, 172);
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 13px;
+    font-style: bold ;
+    float: right;
+
+}
+
+.center{
+    padding-top: 90px;
+    width: 100%;
+    padding-left: 25px;
+    padding-bottom: 90px;
+}
+
+#banner{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.premiercontainer{
+    background-color: #2b3149;
+    color: white;
+}
+
+#slogan{
+    padding-left: 25px;
+}
+
+#premierimg{
+    padding-left: 50px;
+    width: 1250px;
+}
+
+
+.footer{
+    background-color: #303143;
+}
+
+.media{
+    padding-left: 530px ;
+}
+.align{
+    padding-left: 600px;
+}
